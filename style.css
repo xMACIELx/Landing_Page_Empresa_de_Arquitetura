@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    font-family: 'inter';
+}
+
+#menu-superior {
+    background-color: #303030;
+    color: white;
+}
+
+#titulo-principal {
+    font-size: 60px;
+    padding-top: 206px;
+    margin-left: 62px;
+}
+
+#descrição-menu-superior{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 62px;
+    padding-bottom: 149px;
+}
+
+#menu-informativo {
+    background-color: #F9F9F9;
+    color: black;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 81px 0px 81px 180px;
+    align-items: center;
+}
+
+.texto-informativo > h1 {
+    font-size: 40px;
+}
+
+.texto-informativo > p {
+    font-size: 20px;
+}   
+
+#menu-historia {
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+
+#texto-historia {
+    margin-left: 77px;
+    margin-top: 299px;
+}
+
+#texto-historia > h1 {
+    font-size: 40px;
+}
+
+#texto-historia > p{
+    font-size: 24px;
+}
+
+#imagem-historia {
+    margin-top: 77px;
+    margin-bottom: 92px;
+}
+
+#formulario {
+    background-color: #303030;
+    color: white;
+    text-align: center;
+}
+
+#formulario > h1 {
+    font-size: 40px;
+    padding-top: 87px;
+    margin-bottom: 48px;
+}
+
+#campo-nome {
+    margin-bottom: 62px;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+#campo-email {
+    margin-bottom: 88px;
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+    border: 0px;
+    font-size: 24px;
+    padding-left: 10px;
+}
+
+#botao-envio {
+    margin-bottom: 87px;
+    width: 286px;
+    height: 74px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: #C07212;
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+#botao-envio:hover {
+    background-color: #8f540d;
+    transform: translateY(-7px);
+    transition-duration: 0.9s;
+}
